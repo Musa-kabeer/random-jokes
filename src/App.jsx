@@ -7,6 +7,7 @@ function App() {
 
   const handleClick = () => {
     setCount((count) => count + 1);
+    setClip(false);
   };
 
   const handleClip = () => {
